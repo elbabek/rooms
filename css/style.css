@@ -1,0 +1,1058 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E0E0E0;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.welcomeBlock {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcomeBlock img {
+    max-width: 92%;
+}
+
+.designBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    height: 40vh;
+}
+
+.designBlock h1 {
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.designBlock p {
+    line-height: 40px;
+    color: #AAAAAA;
+    font-size: 24px;
+}
+
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rooms div {
+    max-width: 40%;
+}
+
+.rooms div img {
+    max-width: 100%;
+}
+
+.theWorld {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.theWorld p {
+    color: #1A1A1A;
+    margin-top: 1rem;
+}
+
+.barnds {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 33px;
+    width: 100%;
+}
+
+
+.barnds div {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.caruselMenu {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.caruselMenu img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.titleBlock {
+    text-align: start;
+    margin-top: 4%;
+}
+
+.titleBlock h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #1A1A1A;
+    padding-left: 15%;
+}
+
+.titleBlock p {
+    color: #46856E;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 15%;
+}
+
+.box {
+    display: flex;
+    gap: 25px;
+    padding-top: 5%;
+}
+
+.box1 {
+    width: 25%;
+    text-align: center;
+    padding-left: 6%;
+}
+
+.box1 h2 {
+    padding-right: 32%;
+    padding-top: 20px;
+}
+
+.box1 p {
+    color: #AAAAAA;
+    font-size: 16px;
+    text-align: start;
+}
+
+.box2 {
+    width: 25%;
+    text-align: center;
+    padding-left: 6%;
+}
+
+.box2 h2 {
+    padding-right: 36%;
+    padding-top: 20px;
+}
+
+.box2 p {
+    color: #AAAAAA;
+    font-size: 16px;
+    text-align: start;
+}
+
+.box3 {
+    width: 25%;
+    text-align: center;
+    padding-left: 6%;
+}
+
+.box3 h2 {
+    padding-right: 49%;
+    padding-top: 20px;
+}
+
+.box3 p {
+    color: #AAAAAA;
+    font-size: 16px;
+    text-align: start;
+}
+
+.picture {
+    background-image: url(../images/picture.jpg);
+    height: 800px;
+    width: 1340px;
+    margin-top: 50px;
+    margin: 80px auto 0;
+}
+
+.titleText {
+    width: 38%;
+    height: 100%;
+}
+
+.card {
+    padding: 14% 14% 0% 37%;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.cardText {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+.blockText {
+    margin-top: 150px;
+    margin-left: 20%;
+}
+
+.blockText h1 {
+    color: #AAAAAA;
+    font-size: 46px;
+}
+
+.blockContainer {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    margin-top: 80px;
+    padding-left: 13%;
+}
+
+.blockContainer h2 {
+    font-size: 32px;
+}
+
+.blockContainer p {
+    font-size: 16px;
+}
+
+.text {
+    padding-top: 24%;
+}
+
+.text p {
+    color: #AAAAAA;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+
+.riscBlock {
+    width: 1200px;
+    height: 465px;
+    background-color: #F2F2F2;
+    margin: 15% auto 10%;
+    display: flex;
+    /* align-items: center; */
+}
+
+.mainBlock {
+    width: 100%;
+    text-align: center;
+}
+
+.mainBlock h1 {
+    padding-top: 50px;
+}
+
+.mainCard {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 24%;
+    gap: 14%;
+}
+
+.cards p {
+    padding-top: 15px;
+    color: #1A1A1A;
+}
+
+.btn {
+    height: 50px;
+    background-color: #46856E;
+    color: white;
+    width: 146px;
+    margin-top: 65px;
+    border: none;
+    cursor: pointer;
+}
+
+.footerContainer {
+    background-color: #2B2B2B;
+    height: 619px;
+    padding-left: 215px;
+    display: flex;
+}
+
+
+.blockFooter {
+    width: 7%;
+    height: 90%;
+    padding-top: 60px;
+}
+
+.About {
+    color: white;
+    padding-top: 60px;
+}
+
+.About ul {
+    list-style-type: none;
+}
+
+.follow {
+    padding-top: 56px;
+    padding-left: 165px;
+    color: white;
+}
+
+.follow img {
+    padding-top: 20px;
+}
+
+.secondBlock {
+    padding-left: 235px;
+    padding-top: 53px;
+}
+
+.secondBlock p {
+    padding-top: 15px;
+    color: white;
+}
+
+.type {
+    margin-top: 30px;
+    background: #FFFFFF66;
+    border-radius: 3px;
+    padding: 18px 100px 15px 78px;
+    box-shadow: 0px 400px 0px #2B2B2B;
+    margin-bottom: 20px;
+}
+
+.secondBlock span {
+    color: white;
+    padding-top: 25px;
+    padding-left: 220px;
+}
+
+
+.childContainer {
+    font-size: 14px;
+    width: 48%;
+    text-transform: uppercase;
+}
+
+.check {
+    background: #2B2B2B;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.secondButton {
+    margin-top: 63px;
+    margin-left: 243px;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #2B2B2B;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.footer {
+    display: flex;
+    background-color: #2B2B2B;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.footer .iconsInfooter {
+    display: block;
+}
+
+.footer input {
+    background: none;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    width: 327px;
+    color: white;
+}
+
+.footer .checkbox {
+    width: 26px;
+    height: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer .footerText {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.footer .checkboxContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer p {
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    .burgerMenu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .designBlock {
+        margin-bottom: 5%;
+        margin-top: 4%;
+        margin-left: 5%;
+        gap: 5%;
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    .designBlock h1 {
+        font-size: 255%;
+    }
+
+    .titleBlock h1 {
+        font-size: 260%;
+        padding-left: 12%;
+    }
+
+    .titleBlock p {
+        padding-left: 12%;
+    }
+
+    .box {
+        gap: 15px;
+    }
+
+    .box1 h2 {
+        padding-right: 27%;
+    }
+
+    .box2 h2 {
+        padding-right: 34%;
+    }
+
+    .box3 h2 {
+        padding-right: 50%;
+    }
+
+    .picture {
+        height: 720px;
+        width: 95%;
+        margin: 10% auto 0
+    }
+
+    .blockText {
+        margin-top: 6%;
+        margin-left: 16%;
+    }
+
+    .blockText h1 {
+        font-size: 250%;
+    }
+
+    .blockContainer {
+        gap: 4%;
+    }
+
+    .blockContainer h2 {
+        font-size: 190%;
+    }
+
+    .riscBlock {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .designBlock {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
+        gap: 5%;
+        height: 20%;
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    .designBlock h1 {
+        font-size: 200%;
+    }
+
+    .designBlock p {
+        font-size: 125%;
+        line-height: 135%;
+    }
+
+    .barnds div {
+        display: flex;
+        justify-content: space-around;
+        width: 81%;
+    }
+
+    .titleBlock h1 {
+        font-size: 220%;
+        padding-left: 11%;
+    }
+
+    .box {
+        gap: 5%;
+    }
+
+    .blockText {
+        margin-top: 5%;
+    }
+
+    .box p {
+        padding-left: 5%;
+    }
+
+    .box1 {
+        padding-left: 8%;
+    }
+
+    .box2 {
+        padding-left: 0;
+    }
+
+    .box3 {
+        padding-left: 0;
+    }
+
+    .picture {
+        width: 98%;
+        height: 700px;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .card {
+        font-size: 130%;
+    }
+
+    .blockText h1 {
+        font-size: 190%;
+    }
+
+    .blockContainer {
+        padding-left: 7%;
+    }
+
+    .blockContainer img {
+        width: 55%;
+    }
+
+    .riscBlock {
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .designBlock {
+        margin-bottom: 6%;
+        margin-top: 6%;
+        margin-left: 8%;
+    }
+
+    .designBlock h1 {
+        font-size: 200%;
+    }
+
+    .designBlock p {
+        font-size: 115%;
+        line-height: 145%;
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    .barnds {
+        margin-top: 5%;
+        gap: 25px;
+    }
+
+    .barnds img {
+        width: 12%;
+    }
+
+    .barnds div {
+        width: 100%;
+    }
+
+    .caruselMenu {
+        margin-top: 10%;
+    }
+
+    .titleBlock h1 {
+        font-size: 195%;
+    }
+
+    .box {
+        justify-content: center;
+    }
+
+    .box h2 {
+        font-size: 135%;
+    }
+
+    .box p {
+        font-size: 90%;
+    }
+
+    .card {
+        font-size: 103%;
+    }
+
+    .blockText {
+        margin-left: 9%;
+    }
+
+    .picture {
+        background-position: top;
+        height: 550px;
+    }
+
+    .blockText h1 {
+        font-size: 195%;
+    }
+
+    .blockContainer img {
+        width: 55%;
+    }
+
+    .blockContainer {
+        padding-left: 4%;
+    }
+
+    .text {
+        padding-top: 17%;
+    }
+
+    .text p {
+        font-size: 95%;
+    }
+
+    .riscBlock {
+        width: 90%;
+        height: 445px;
+    }
+
+    .mainCard {
+        padding-left: 12%;
+        padding-top: 13%;
+    }
+
+    .text h2 {
+        font-size: 175%;
+    }
+
+    .text p {
+        font-size: 90%;
+    }
+
+    .checkboxContainer {
+        font-size: 70%;
+    }
+
+    .cards img {
+        width: 35%;
+
+    }
+
+    .titleBlock h1 {
+        padding-left: 9%;
+    }
+
+    .box1 {
+        padding-left: 3%;
+    }
+
+    .footer input {
+        width: 75%;
+    }
+
+    .footer a {
+        font-size: 80%;
+    }
+
+    .roompick {
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .menu,
+    .cart {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: block;
+        height: 80%;
+    }
+
+    .header {
+        height: 20%;
+    }
+
+    .header img {
+        width: 7%;
+    }
+
+    .designBlock {
+        margin-left: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 12vh;
+        gap: 15px;
+    }
+
+    .designBlock h1 {
+        font-size: 115%;
+    }
+
+    .designBlock p {
+        font-size: 85%;
+        line-height: 110%;
+    }
+
+    .theWorld {
+        font-size: 14px;
+    }
+
+    .theWorld h1 {
+        font-size: 150%;
+    }
+
+    .rooms p {
+        font-size: 11px;
+    }
+
+    .barnds {
+        gap: 15px;
+    }
+
+    .barnds img {
+        width: 10%;
+    }
+
+    .titleBlock {
+        margin-top: 4%;
+    }
+
+    .titleBlock h1 {
+        font-size: 140%;
+        padding-left: 5%;
+    }
+
+    .titleBlock p {
+        padding-left: 5%;
+        font-size: 75%;
+    }
+
+    .caruselMenu {
+        margin-top: 10%;
+    }
+
+    .box {
+        gap: 5%;
+    }
+
+    .box img {
+        width: 60%;
+    }
+
+    .box h2 {
+        font-size: 16px;
+    }
+
+    .box p {
+        font-size: 70%;
+    }
+
+    .card {
+        font-size: 15px;
+        padding: 27% 7% 0% 14%;
+    }
+
+    .cardText {
+        font-size: 85%;
+    }
+
+    .text {
+        padding-top: 9%;
+    }
+
+    .titleText {
+        width: 47%;
+    }
+
+    .picture {
+        height: 600px;
+    }
+
+    .card :first-child {
+        width: 120%;
+    }
+
+    .card img {
+        width: 35%;
+    }
+
+    .blockText {
+        margin-left: 12%;
+        margin-top: 8%;
+    }
+
+    .blockText h1 {
+        font-size: 110%;
+    }
+
+    .blockContainer {
+        gap: 7px;
+        margin-top: 8%;
+    }
+
+    .blockContainer img {
+        width: 50%;
+        height: 265px;
+    }
+
+    .text h2 {
+        font-size: 125%;
+    }
+
+    .text p {
+        font-size: 75%;
+        padding-top: 10%;
+    }
+
+    .riscBlock {
+        height: 320px;
+        width: 85%;
+    }
+
+    .mainCard {
+        padding-left: 9%;
+        gap: 10%;
+        padding-top: 11%;
+        align-items: baseline;
+    }
+
+    .mainBlock h1 {
+        padding-top: 5%;
+        font-size: 165%;
+    }
+
+    .btn {
+        height: 35px;
+        width: 75%;
+        margin-top: 40%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .footer:first-child div {
+        width: 90px;
+    }
+
+    .footer p,
+    a {
+        text-align: center;
+    }
+
+    .footer p {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .footer div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards img {
+        width: 45%;
+    }
+
+    .cards p {
+        font-size: 80%;
+    }
+
+    .footer input {
+        width: 38%;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .designBlock {
+margin-left: 18px;
+margin-top: 5%;
+margin-bottom: 5%;
+height: 12vh;
+gap: 10px;
+ }
+ .designBlock p{
+        font-size: 10px;
+ }
+ .theWorld h1{
+    font-size: 18px;
+ }
+
+ .designBlock h1 {
+     font-size: 100%;
+ }
+ .barnds {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.box1{
+    padding-left: 2%;
+}
+ .box img{
+    width: 85px;
+ }
+ .box h2{
+    font-size: 15px;
+ }
+ .box p{
+    font-size: 10px;
+ }
+ .picture {
+    margin-top: 15%;
+    height: 485px;
+ }
+ .blockText h1{
+    font-size: 16px;
+ }
+ .blockContainer img{
+    width: 50%;
+ }
+ .mainBlock h1{
+    padding-top: 25px;
+    font-size: 23px;
+ }
+ .titleBlock h1{             font-size: 15px;
+padding-left: 5%;
+ }
+ .titleBlock p{
+padding-top: 5px;
+font-size: 10px;
+ }
+ .text p{
+    font-size: 10px;
+    padding-top: 10px;
+ }
+ .text h2{
+    font-size: 16px;
+ }
+ .mainCard {
+     padding-left: 2%;
+     gap: 20px;
+     padding-top: 10%;
+ }
+ .riscBlock {
+     height: 300px;
+     width: 90%;
+ }
+ .barnds img {
+     width: 50px;
+ }
+ .cards img{
+    width: 40px;
+ }
+
+ .cards p{
+    font-size: 78%;
+ }
+ .btn {
+     height: 30px;
+     width: 90px;
+ }
+ .footer p{
+    font-size: 14px;
+ }
+ .footer input{
+    width: 180px;
+ }
+
+}
